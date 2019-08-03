@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-08-03T12:40:25.689-03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/wknd/settings/wcm/templates/landing-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="First Article"
+        jcr:uuid="c92760d0-9aa3-444b-a83f-868032894f80"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2019-08-03T12:18:57.261-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-08-03T12:19:29.670-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/structure/header"/>
+            <responsivegrid
+                jcr:created="{Date}2019-08-03T12:19:11.515-03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-08-03T12:19:33.863-03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <breadcrumb
+                    jcr:created="{Date}2019-08-03T12:36:11.478-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-03T12:36:11.478-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/breadcrumb"/>
+                <image
+                    jcr:created="{Date}2019-08-03T12:39:33.269-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-03T12:39:33.269-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/fjord-waves.jpg"/>
+                <image_1653427661
+                    jcr:created="{Date}2019-08-03T12:40:25.675-03:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-03T12:40:25.675-03:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/image"
+                    fileReference="/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/camp-tent.jpg"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
