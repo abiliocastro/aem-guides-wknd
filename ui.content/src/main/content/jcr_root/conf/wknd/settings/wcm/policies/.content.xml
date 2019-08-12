@@ -281,7 +281,7 @@
                         </cq:styleGroups>
                     </policy_1565184839995>
                 </carousel>
-                
+                <byline jcr:primaryType="nt:unstructured"/>
             </content>
             <structure jcr:primaryType="nt:unstructured">
                 <navigation jcr:primaryType="nt:unstructured">

@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-08-08T20:39:29.591-03:00"
+        cq:lastModified="{Date}2019-08-08T22:35:59.734-03:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
         jcr:primaryType="cq:PageContent"
@@ -56,7 +56,20 @@
                         variationName="master">
                         <par3
                             jcr:primaryType="nt:unstructured"
-                            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                            sling:resourceType="wcm/foundation/components/responsivegrid">
+                            <byline
+                                jcr:created="{Date}2019-08-08T22:35:27.680-03:00"
+                                jcr:createdBy="admin"
+                                jcr:lastModified="{Date}2019-08-08T22:35:59.357-03:00"
+                                jcr:lastModifiedBy="admin"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wknd/components/content/byline"
+                                fileName="stacey-roswells.jpg"
+                                name="Chiquinha do Pote"
+                                occupations="[Postadora de Coisas na Internet,Foteira]">
+                                <file/>
+                            </byline>
+                        </par3>
                         <par1
                             jcr:primaryType="nt:unstructured"
                             sling:resourceType="dam/cfm/components/grid">
@@ -104,19 +117,6 @@
                                 fileReference="/content/dam/wknd/en/los-angeles/article_01_picture_01.png"/>
                         </par2>
                     </contentfragment>
-                    <byline
-                        jcr:created="{Date}2019-08-08T12:46:01.763-03:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2019-08-08T20:39:29.567-03:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="wknd/components/content/byline"
-                        fileName="stacey-roswells.jpg"
-                        fileReference="/content/dam/wknd/en/stacey-roswells.jpg"
-                        name="Stacey Rowels"
-                        occupations="[Postadora de Coisas na Internet,Batedora de Retrato]">
-                        <file/>
-                    </byline>
                 </responsivegrid>
                 <responsivegrid_1919360910
                     jcr:created="{Date}2018-11-15T20:40:44.357-05:00"
